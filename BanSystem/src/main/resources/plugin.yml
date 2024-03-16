@@ -1,0 +1,17 @@
+name: BanSystem
+version: '${project.version}'
+main: lampsio.bansystem.bansystem.BanSystem
+api-version: '1.20'
+commands:
+  panelkar:
+    description: Panel do banowania
+    usage: /<command> <player>
+  setPrison:
+    description: Ustawienie wspólrzędnych wiezienia
+    usage: /<command>
+  report:
+    description: Reportowanie gracza
+    usage: /<command>
+  viewreport:
+    description: Panel
+    usage: /<command>
